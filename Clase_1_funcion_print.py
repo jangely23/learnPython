@@ -1,10 +1,14 @@
-###########################
-##### Función print() #####
-###########################
+#######################################################
+#                   print()                           #
+#  La función print() es una función integrada        #
+#  imprime/envía un mensaje específico a la           #
+#  pantalla/ventana de consola.                       #
+#  python tiene 69 funciones integradas.              #
+#######################################################
 
 # la forma posicional de pasar argumentos, muestra el significado de los argumentos en el orden en que se pasan
 print("Ejecucion de ejemplos de la forma posicional de pasar argumentos:")
-print("\nHola mundo \n")
+print("\nHola mundo \n") # el slash \ es un caracter de escape que anuncia que el siguiente carácter tiene un significado diferente 
 print("¡Hola, Python!")
 print("Greg")
 print('Greg')
