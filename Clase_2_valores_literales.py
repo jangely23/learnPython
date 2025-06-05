@@ -45,16 +45,29 @@ print(6.62607E-34) # La Constante de Planck
 print(0.0000000000000000000001) # Python siempre elige la presentación más corta del número
 
 # Cadenas
+# Las cadenas son secuencias de caracteres.
+# Las cadenas se escriben entre comillas simples o dobles.
+# Las cadenas pueden contener caracteres especiales y secuencias de escape.
 print("\nCadenas")
-print("Me gusta \"Monty Python\"")
-print('Me gusta "Monty Python"')
-print('I\'m Monty Python')
+print("Me gusta \"Monty Python\"") #Una comilla precedida por una diagonal invertida cambia su significado - no es un limitador, simplemente es una comilla
+print('Me gusta "Monty Python"') # utilizar una apóstrofe en lugar de una comilla
+print('I\'m Monty Python') #Otra forma de escapar comillas
 print("I'm Monty Python.")
 
-# Boobleanos
+# Boobleanos 
+# Los booleanos son valores lógicos que representan verdadero o falso.
+# Los booleanos se escriben como True (1) y False (0), se debe respetar las mayusculas.
+# Los booleanos se utilizan para representar valores lógicos en Python. 
 print("\nBooleanos True=1 ó False=0")
-print(True > False)
-print(True < False)
+print(True > False) # True
+print(True < False) # False
+
+# None
+# None es un valor especial que representa la ausencia de un valor.
+# None es un valor que no tiene valor es llamado un objeto de NoneType.
+print("\nNone")
+print(None)
+
 
 # Ejercicios de ejemplo
 print('"Estoy"\n""aprendiendo""\n"""Python"""')
